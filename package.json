@@ -1,0 +1,23 @@
+{
+  "name": "HCDev",
+  "version": "0.0.1",
+  "author": "Maeda Hanafi",
+  "description": "HC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cheerio": "0.12.4",
+    "connect-flash": "0.1.1",
+    "express": "^3.21.2",
+    "feedparser": "0.16.3",
+    "node-json2html": "0.4.1",
+    "passport": "^0.1.18",
+    "passport-local": "0.1.6",
+    "pg": "^2.11.2",
+    "request": "2.30.0"
+  },
+  "main": "./lib/http-server",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
